@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Inter:wght@100;200;300;400;600;700&family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 429px) and (min-width: 320px) {
+  body {
+    background-color: rgba(255, 166, 0, 0.719);
+  }
+
+  header {
+    max-width: 428px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-header {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .hamburguerMenu {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+  }
+
+  .hamburguerMenu img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .shopBtn {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+
+  .shopBtn img {
+    width: 100%;
+    height: 100%;
+  }
+
+  main {
+    max-width: 428px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .mainImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 400px;
+  }
+
+  .mainImg img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .nameandValue {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nameandValue h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+
+  .nameandValue p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+
+  .insideInformation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .insideInformation h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+
+  .insideInformation p {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .aboutCosiness {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .aboutCosiness h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+
+  .aboutCosiness p {
+    width: 60vw;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .chooseQuantity {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .bagPackage {
+    display: flex;
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  .bagPackage input {
+    display: none;
+  }
+
+  .bagPackage input + label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .bagPackage input:checked + label:before {
+    background-color: #000;
+  }
+
+  .bagPackage label,
+  .jarPackage label {
+    font-size: 18px;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .jarPackage {
+    display: flex;
+    width: 50%;
+  }
+
+  .jarPackage input {
+    display: none;
+  }
+
+  .jarPackage input + label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .jarPackage input:checked + label:before {
+    background-color: #000;
+  }
+
+  .buttonsPart {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttonsPart div {
+    width: 80%;
+    padding: 10px;
+    border: solid 2px #000;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .buttonsPart div button {
+    border: none;
+    background: none;
+  }
+
+  .buttonsPart div .minusSign {
+    font-size: 24px;
+    margin-left: 15px;
+  }
+
+  .buttonsPart div .plusSign {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+
+  .addCart {
+    width: 80%;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 13px;
+  }
+}

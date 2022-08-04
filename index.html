@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Mobile First</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <figure class="hamburguerMenu">
+          <img src="./Images/icons8-cardápio-192.png" alt="Hamburguer Menu" />
+        </figure>
+        <article>
+          <h2>Flavo</h2>
+        </article>
+        <figure class="shopBtn">
+          <img src="./Images/2.png" alt="Shop Button" />
+        </figure>
+      </div>
+    </header>
+    <main>
+      <div class="container-main">
+        <figure class="mainImg">
+          <img src="./Images/cosiness.png" alt="Flavo Cosiness" />
+        </figure>
+        <article class="nameandValue">
+          <h1>cosiness</h1>
+          <p>$15</p>
+        </article>
+        <article class="insideInformation">
+          <h2>what's inside</h2>
+          <p>Chili, oreano, safran, paprika</p>
+        </article>
+        <article class="aboutCosiness">
+          <h2>Why we love it</h2>
+          <p>
+            This one will add a little savoury flavour to any food and turn any
+            meal to a culinary masterpiece.
+          </p>
+        </article>
+        <div class="chooseQuantity">
+          <div class="bagPackage">
+            <input type="radio" name="choose" id="75g" />
+            <label for="75g">bag (75g)</label>
+          </div>
+          <div class="jarPackage">
+            <input type="radio" name="choose" id="150g" />
+            <label for="150g">jar (150g)</label>
+          </div>
+        </div>
+        <div class="buttonsPart">
+          <div>
+            <button class="minusSign">-</button>
+            <p class="showCount"></p>
+            <button class="plusSign">+</button>
+          </div>
+          <button class="addCart">add to cart</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
